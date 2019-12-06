@@ -1,0 +1,382 @@
+body{
+    background-color: white;
+}
+/*    
+   Beginnging of the top section of the homepage
+*/
+
+
+div.section-top div.section-top-navbar nav div.navbar-content-lt{
+
+    margin-left: 5vw;
+    margin-top: 3.5vh;
+}
+
+div.section-top div.section-top-navbar nav a img#site-logo{
+
+    height: 17vh;
+    width: 7.5vw;
+}
+
+div.dropdown-menu{
+    z-index: 99;
+}
+
+div.section-top div.section-top-navbar nav div.navbar-content-lt div.navbar-links{
+
+    margin-left: 9vw;
+    margin-top: -12vh;
+}
+
+div.section-top div.section-top-navbar nav div.navbar-content-lt div.navbar-links ul li{
+
+    padding-right:1vw;
+    padding-left: 1vw  ;
+}
+
+div.section-top div.section-top-navbar nav div.navbar-content-rt{
+
+    margin-left: 50vw;
+    margin-top: -6vh;
+    width: 38vw;
+    text-align: center;
+}
+
+div.section-top div.section-top-navbar nav div.navbar-content-rt p,a{
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color:white;
+}
+
+div.section-top div.section-top-navbar nav div.navbar-content-rt a.register{
+
+  border-style: solid;
+  border-width: 0.1vw;
+  border-color: blue;
+  height: 7vh;
+    text-align: center;
+    vertical-align:middle;
+     border-radius:0.2em;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+}
+div.carousel{
+    z-index: 1;
+}
+
+div.carousel-inner p{
+
+    font-size: 3em;
+    margin-left:-10vw;
+    width:35vw;
+    margin-bottom: 8vh;
+    
+    line-height: 10vh;
+}
+
+div.carousel-inner h6{
+    margin-left: -60vw;
+    margin-bottom: 5vw;
+    font-size: 1.2em;
+    
+}
+h6#move{
+    margin-left:-55vw;
+}
+div.carousel-inner a{
+    margin-left:-60vw;
+    width: 15vw;
+    height: 10vh;
+    text-align: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+div.section-body{
+    position: relative;
+}
+
+div.section-body div.section-one{
+    position: absolute;
+    top: 30vh;
+}
+
+div.section-body div.section-one img{
+
+     width: 30vw;
+     height: 50vh;
+     float: left;
+     margin-left: 18vw;
+}
+
+div.section-body div.section-one span#text{
+    float:right;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    
+
+}
+div.section-body div.section-one p#upper-text{
+    font-size: 2em;
+    font-family: Advent pro;
+    
+}
+
+div.section-body div.section-one p#lower-text{
+
+  
+    color:darkslategrey ;
+   
+}
+
+div.section-body div.section-one span#text a{
+    color: blue;
+    
+
+}
+
+div.section-body div.section-two{
+
+    position: absolute;
+    top:100vh;
+}
+
+div.section-body div.section-two img {
+
+ float: right;
+ width: 30vw;
+ height: 40vh;
+ margin-right: 8vw;
+}
+
+div.section-body div.section-two span#text{
+
+    float: left;
+    width: 35vw;
+    margin-left: 18vw;
+}
+
+div.section-body div.section-two p#upper-text{
+    
+    font-size: 2em;
+    font-family: Advent pro;
+
+}
+
+div.section-body div.section-two p#lower-text{
+    color: darkslategrey;
+}
+
+div.section-body div.section-two span#text a{
+
+    color: blue;
+    
+}
+
+div.section-body div.section-three{
+    position: absolute;
+    top: 170vh;
+}
+
+div.section-body div.section-three img{
+
+    float: right;
+    width: 30vw;
+    height: 60vh;
+    margin-right: 8vw;
+    
+    
+
+
+}
+
+div.section-body div.section-three span#text{
+
+    float: left;
+    width:30vw;
+    margin-left: 18vw;
+    
+}
+
+div.section-body div.section-three p#upper-text{
+
+    font-family: Advent pro;
+    font-size: 2em;
+}
+
+div.section-body div.section-three p#lower-text{
+    
+    color:darkslategrey;
+    
+}
+
+div.section-body div.section-three span#text a{
+
+    color:blue;
+}
+
+div.section-body div.section-four {
+
+     position:absolute;
+     margin-top:270vh;
+}
+div.section-body div.section-four div.plans{
+    margin-right: 0vw;
+}
+
+div.section-body div.section-four span#text p#upper-text{
+
+    font-size:2em;
+    text-align: center;
+    margin-left: 13vw;
+
+}
+
+div.section-body div.section-four p#lower-text{
+
+    color: darkslategrey;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+div.section-body div.section-four div.plans{
+    
+    margin-top: 20vh;
+    margin-left:15vw;
+    margin-right: 5vw;
+}
+
+div.section-body div.section-five{
+    position:absolute;
+    margin-top:450vh;
+
+}
+
+div.section-body div.section-five div.achievements{
+
+    max-width: 100vw;
+    margin-left:18vw;
+}
+
+div.section-body div.section-five div.achievements div.card{
+
+    padding: 2em;
+    border:none;
+    width: 30vw;
+}
+
+div.section-body div.section-five div.achievements div.card-one,div.card-three{
+
+
+      margin-left: -5vw;
+    
+    }
+
+div.section-body div.section-five div.achievements div.card-two,div.card-four{
+
+    margin-left: 15vw;
+    
+}
+div.section-body div.section-five div.achievements div.card i.fas{
+
+    font-size: 2.3rem;
+    margin-left:1vw;
+    
+}
+
+
+div.section-body div.section-seven{
+    position: absolute;
+    margin-top: 580vh;
+    width: 80vw;
+    margin-left:25vh;
+}
+div.section-body div.section-seven div.card{
+
+    border: none;
+}
+div.section-body div.section-seven p#text{
+
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10vw;
+
+}
+
+div.section-body div.section-seven i.fas,i.fab{
+    font-size: 4rem;
+    margin-left: 6vw;
+}
+
+div.section-body div.section-eight{
+
+    position: absolute;
+    margin-top: 690vh;
+
+}
+div.section-body div.section-eight div.testimonies{
+
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 20vh;
+    border: none;
+   
+}
+div.section-body div.section-eight div.card{
+
+   border: none;
+}
+div.section-body div.section-eight p#text{
+    text-align: center;
+    font-size: 2em;
+    margin-left: 10vw;
+    
+}
+
+div.section-body div.section-eight div.testimonies img{
+
+    height: 30vh;
+    width:15vw;
+    margin-left: 8vh;
+}
+
+div.section-body div.section-nine{
+    position: absolute;
+    margin-top:830vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+div.section-body div.section-nine p.text{
+
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20vh;
+}
+
+div.section-body div.section-nine img{
+
+    height: 30vh;
+    width: 20vw;
+}
+div.section-body div.section-ten{
+
+    position:absolute;
+    margin-top:950vh;
+    width: 80%;
+    margin-left: 10vw;
+}
+div.section-body div.section-ten h6{
+ 
+    font-size: 0.6em;
+    line-height: 4vh;
+}

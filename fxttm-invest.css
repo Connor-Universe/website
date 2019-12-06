@@ -1,0 +1,116 @@
+div.sidenav {
+    height: 100%; 
+    width: 20vw; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+   overflow-y:scroll;
+   overflow-x: hidden;
+
+}
+
+div.sidenav a.img-link{
+
+    
+  
+    padding: 20vh;
+    background-color:hsl(225, 59%, 11%);
+    
+   
+    
+}
+div.sidenav img{
+
+    height: 20vh;
+    width:  8vw;
+    margin-top: 10vh;
+    margin-left: -8vh;
+    
+}
+
+div.sidenav nav.content{
+
+    margin-top: 6vh;
+    background-color: hsl(213, 30%, 32%);
+}
+
+div.sidenav nav.content ul li a{
+
+    color: white;
+    margin-left: 2vw;
+}
+
+div.invest,div.footer{
+    margin-left: 20vw;
+    overflow-x: hidden;
+    
+    
+}
+
+section.top{
+    background-color: hsl(213, 30%, 32%);
+    
+}
+section.top a{
+    color: white;
+    margin-top: 2vh;
+}
+
+section.top a.first{
+
+    margin-left: 5vw;
+}
+p#text-top{
+
+    font-size: 3em;
+    color:hsl(213, 30%, 32%) ;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+
+
+div.footer{
+    background-color:hsl(213, 30%, 32%) ;
+    height: 8vh;
+    margin-top: 14vh;
+    overflow-y: hidden;
+}
+
+div.footer p{
+    font-size: 0.8em;
+    color: white;
+}
+
+div.plans{
+
+    width: 80%;
+    margin-left: 10vw;
+}
+div.set-one,div.set-two{
+
+    padding: 2vh;
+  
+}
+
+div.card{
+
+    border-radius: 5%;
+    background-color: white;
+}
+
+div.card a{
+
+    width: 50%;
+    border-radius: 5%;
+}
+
+div.invest p.text-bottom{
+
+    margin-top: 10vh;
+    font-size: .9em;
+    color: hsl(225, 59%, 11%);
+    width: 50%;
+    margin-left: 10vw;
+}

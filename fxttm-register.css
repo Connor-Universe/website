@@ -1,0 +1,94 @@
+
+
+body{
+    background-image:url("scott-webb-yekGLpc3vro-unsplash.jpg");
+    background-size: cover;
+    height: 150vh;
+    width: 100vw;
+    width: 90%;    
+    margin: 0 auto; 
+}
+div.icon a img{
+
+    height: 18vh;
+    width: 8vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+div.body{
+    width: 100%;
+}
+
+div.body p.side{
+
+    color: white;
+    width: 30vw;
+    font-size: 3.5em;
+    font-family: advent pro;
+    margin-top: 10vh;
+    text-align: center;
+    margin-top: 30vh;
+    line-height: 10vh;
+}
+
+
+
+form{
+    background-color: white;
+    border-radius: 2%;
+    width:0vw ;
+    height: 180vh;
+    
+    margin-left: 10vw;
+}
+
+input[type=text], input[type=tel],select,label{
+
+    width: 100%;
+    padding: 2vh;
+    
+    
+}
+
+
+p.top{
+    text-align: center;
+    font-size: 1.7em;
+}
+
+p.top a{
+    font-size: 0.6em;
+}
+
+p.bottom{
+
+    font-size: 0.7em;
+}
+
+ a.register{
+
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    border-radius: 3%;
+    padding-top: 2vh;
+    
+}
+
+div.footer{
+    margin-top: 20vh;
+}
+
+div.footer img{
+
+    height: 10vh;
+    width: 10vw;
+}
+
+div.footer p{
+
+    line-height: 4vh;
+    font-size: 0.7em;
+    color: white;
+    margin-left: 10vw;
+}

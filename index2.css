@@ -1,0 +1,18 @@
+body{
+    background-image: url('bg-pic.jpg');
+    background-size: cover;
+    height: 150vh;
+}
+
+img{
+
+   height: 18vh;
+    width: 8vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+div.contact{
+
+    margin-top: -10vh;
+}
